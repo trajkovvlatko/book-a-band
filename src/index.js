@@ -8,6 +8,7 @@ import thunk from 'redux-thunk';
 import promise from 'redux-promise-middleware';
 
 import reducer from './reducers/main';
+import initialState from './initial_state';
 
 // layouts
 import SearchPage from './layouts/search_page/index';
@@ -16,6 +17,7 @@ import VenuesPage from './layouts/venues_page/index';
 
 let store = createStore(
   reducer,
+  initialState,
   applyMiddleware(thunk, promise(), createLogger())
 )
 
@@ -33,6 +35,6 @@ store.subscribe(() => {
 
 })
 
-store.dispatch({ type: "SET_LOCATION", payload: "Stockholm" })
+store.dispatch({ type: "SET_LOCATION", payload: "City 1" })
 store.dispatch({ type: "SET_TARGET", payload: "band" })
 store.dispatch({ type: "SET_SORTING", payload: "rating" })

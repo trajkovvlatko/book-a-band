@@ -3,9 +3,10 @@ import './styles.css';
 
 class Location extends Component {
   render() {
+    // const location = this.props.location || "";
     return (
       <div>
-        Location: <input type="text" defaultValue={this.props.location} />
+        Location: <input type="text" value={this.props.location} />
       </div>
     );
   }
