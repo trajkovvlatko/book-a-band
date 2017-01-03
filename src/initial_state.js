@@ -1,9 +1,10 @@
 export default {
   search: {
     location: "",
-    target: "band"
+    target: "band",
+    results: []
   },
   sorting: {
     sorting: ""
-  }
+  },
 }

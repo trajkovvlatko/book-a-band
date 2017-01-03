@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-import SearchForm from '../../containers/search_form';
-import Results from '../../containers/results';
+import SearchForm from '../../components/search_form';
+import Results from '../../components/results';
 
 class SearchPage extends Component {
+
+  handleOnClick() {
+    console.log(this);
+  }
+
   render() {
     return (
       <div>

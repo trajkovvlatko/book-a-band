@@ -1,0 +1,22 @@
+[
+  { 
+    "id": 1,
+    "name": "Venue 1",
+    "email": "venue-email1@email.com"
+  },
+  { 
+    "id": 2,
+    "name": "Venue 2",
+    "email": "venue-email2@email.com"
+  },
+  { 
+    "id": 3,
+    "name": "Venue 3",
+    "email": "venue-email3@email.com"
+  },
+  { 
+    "id": 4,
+    "name": "Venue 4",
+    "email": "venue-email4@email.com"
+  }
+]

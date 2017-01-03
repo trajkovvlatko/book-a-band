@@ -1,0 +1,7 @@
+SearchPage
+  SearchForm
+    Target
+    Location
+    Sorting
+  Results
+  Map

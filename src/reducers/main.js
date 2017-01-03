@@ -4,5 +4,5 @@ import sorting from './sorting'
 
 export default combineReducers({
   search,
-  sorting
+  sorting,
 })
