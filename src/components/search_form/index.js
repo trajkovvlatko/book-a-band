@@ -9,10 +9,10 @@ import Target from "../../components/target"
 
 class SearchForm extends Component {
 
-  handleOnClick() {
+  handleOnClick(e) {
     this.props.dispatch({
       type: "FETCH_RESULTS",
-      payload: axios.get("/stubs/bands.json")
+      payload: axios.get(`/stubs/${this.props.search.target}s.json?location=${this.props.search.location}`)
     });
   }
 

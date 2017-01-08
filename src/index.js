@@ -33,9 +33,3 @@ ReactDOM.render((
 store.subscribe(() => {
 
 })
-
-store.dispatch({ type: "SET_LOCATION", payload: "City 1" })
-store.dispatch({ type: "SET_TARGET", payload: "band" })
-store.dispatch({ type: "SET_SORTING", payload: "rating" })
-store.dispatch({ type: "SET_LOCATION", payload: "City 2" })
-store.dispatch({ type: "SET_LOCATION", payload: "City 3" })
