@@ -1,6 +1,7 @@
 export default {
   search: {
     location: "",
+    location_ids: [],
     target: "band",
     results: [],
     fetching: false

@@ -3,6 +3,8 @@ import axios from "axios";
 import './styles.css';
 import { connect } from 'react-redux';
 
+import LocationResult from "../location_result/index";
+
 class Location extends Component {
 
   handleOnChange(e) {
@@ -19,7 +21,7 @@ class Location extends Component {
   render() {
     const location = this.props.location;
     const locationItems = this.props.locations.results.map( (item) =>
-      <li key={item.id}>{item.location}</li>
+      <LocationResult key={item.id} item={item} />
     );
     return (
       <div>
