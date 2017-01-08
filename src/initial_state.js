@@ -2,9 +2,14 @@ export default {
   search: {
     location: "",
     target: "band",
-    results: []
+    results: [],
+    fetching: false
   },
   sorting: {
     sorting: ""
   },
+  locations: {
+    fetching: false,
+    results: []
+  }
 }

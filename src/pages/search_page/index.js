@@ -6,10 +6,6 @@ import Results from '../../components/results';
 
 class SearchPage extends Component {
 
-  handleOnClick() {
-    console.log(this);
-  }
-
   render() {
     return (
       <div>
