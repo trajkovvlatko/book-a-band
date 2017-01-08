@@ -4,7 +4,6 @@ import { Router, Route, browserHistory } from 'react-router'
 import { applyMiddleware, createStore } from 'redux'
 import { Provider } from 'react-redux'
 import createLogger from 'redux-logger';
-import thunk from 'redux-thunk';
 import promise from 'redux-promise-middleware';
 
 import reducer from './reducers/main';
@@ -18,7 +17,7 @@ import VenuesPage from './pages/venues_page/index';
 let store = createStore(
   reducer,
   initialState,
-  applyMiddleware(thunk, promise(), createLogger())
+  applyMiddleware(promise(), createLogger())
 )
 
 ReactDOM.render((

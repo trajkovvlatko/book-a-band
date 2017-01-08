@@ -9,11 +9,10 @@ export default function search(state = {}, action) {
     case 'FETCH_RESULTS_REJECTED':
       return { ...state, fetching: false, error: action.payload }
     case 'FETCH_RESULTS_FULFILLED':
-      console.log(action.payload)
       return {
         ...state,
         fetching: false,
-        results: action.payload
+        results: action.payload.data
       }
     default:
       return state
