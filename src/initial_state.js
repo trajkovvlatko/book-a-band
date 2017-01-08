@@ -12,5 +12,6 @@ export default {
   locations: {
     fetching: false,
     results: []
-  }
+  },
+  band: {}
 }

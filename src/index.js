@@ -12,7 +12,9 @@ import initialState from './initial_state';
 // pages
 import SearchPage from './pages/search_page/index';
 import BandsPage from './pages/bands_page/index';
+import BandPage from './pages/band_page/index';
 import VenuesPage from './pages/venues_page/index';
+import VenuePage from './pages/venue_page/index';
 
 let store = createStore(
   reducer,
@@ -25,7 +27,9 @@ ReactDOM.render((
     <Router history={browserHistory}>
       <Route path="/" component={SearchPage}></Route>
       <Route path="/bands" component={BandsPage}></Route>
+      <Route path="/bands/:id" component={BandPage}></Route>
       <Route path="/venues" component={VenuesPage}></Route>
+      <Route path="/venues/:id" component={VenuePage}></Route>
     </Router>
   </Provider>
 ), document.getElementById('root'))
