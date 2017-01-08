@@ -2,21 +2,25 @@
   { 
     "id": 1,
     "name": "Band 1",
-    "email": "band-email1@email.com"
+    "email": "band-email1@email.com",
+    "type": "band"
   },
   { 
     "id": 2,
     "name": "Band 2",
-    "email": "band-email2@email.com"
+    "email": "band-email2@email.com",
+    "type": "band"
   },
   { 
     "id": 3,
     "name": "Band 3",
-    "email": "band-email3@email.com"
+    "email": "band-email3@email.com",
+    "type": "band"
   },
   { 
     "id": 4,
     "name": "Band 4",
-    "email": "band-email4@email.com"
+    "email": "band-email4@email.com",
+    "type": "band"
   }
 ]

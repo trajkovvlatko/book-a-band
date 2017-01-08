@@ -7,7 +7,7 @@ import ResultItem from "../result_item/index";
 class Results extends Component {
   render() {
     const resultItems = (this.props.search.fetched) ? this.props.search.results.map( (item) =>
-      <ResultItem item={item} target={this.props.search.target} key={item.id} />
+      <ResultItem item={item} key={item.id} />
     ) : "";
     return (
       <div>
