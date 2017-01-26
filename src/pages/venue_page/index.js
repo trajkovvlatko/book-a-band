@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import { connect } from 'react-redux';
+import { Link } from 'react-router'
 
 import './styles.css';
 
@@ -29,7 +30,7 @@ class VenuePage extends Component {
           <VenueInfo venue={this.props.venue.result} />
         : ""}
 
-        <a href="/">Back</a>
+        <Link to="/">Back</Link>
       </div>
     );
   }
