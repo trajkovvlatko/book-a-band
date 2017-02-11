@@ -2,20 +2,29 @@ import React, { Component } from 'react';
 import axios from "axios";
 import './styles.css';
 import { connect } from 'react-redux';
+import { debounce } from '../../helpers/main_helper';
 
 import LocationResult from "../location_result/index";
 
 class Location extends Component {
+  constructor() {
+    super();
+    this.fetchLocations = debounce(this.fetchLocations, 500);
+  }
+
+  fetchLocations(value) {
+    this.props.dispatch({
+      type: "FETCH_LOCATIONS",
+      payload: axios.get(`/stubs/locations.json?location=${value.trim()}`)
+    })
+  }
 
   handleOnChange(e) {
     this.props.dispatch({
       type: "SET_LOCATION",
       payload: e.target.value.trim()
     });
-    this.props.dispatch({
-      type: "FETCH_LOCATIONS",
-      payload: axios.get(`/stubs/locations.json?location=${e.target.value.trim()}`)
-    })
+    this.fetchLocations(e.target.value);
   }
 
   render() {
