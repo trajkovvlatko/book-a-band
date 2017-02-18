@@ -12,19 +12,23 @@ class Location extends Component {
     this.fetchLocations = debounce(this.fetchLocations, 500);
   }
 
-  fetchLocations(value) {
+  fetchLocations(value = "") {
+    if (value.length < 3) {
+      return false;
+    }
     this.props.dispatch({
       type: "FETCH_LOCATIONS",
-      payload: axios.get(`/stubs/locations.json?location=${value.trim()}`)
+      payload: axios.get(`/stubs/locations.json?location=${value}`)
     })
   }
 
   handleOnChange(e) {
+    let value = e.target.value.trim();
     this.props.dispatch({
       type: "SET_LOCATION",
-      payload: e.target.value.trim()
+      payload: value
     });
-    this.fetchLocations(e.target.value);
+    this.fetchLocations(value);
   }
 
   render() {

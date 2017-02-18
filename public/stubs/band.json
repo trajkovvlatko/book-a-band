@@ -1,5 +1,43 @@
 {
   "id": 1,
   "name": "Band name 1",
-  "email": "email@email.com"
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "phone": "0038972261124",
+  "email": "email@email.com",
+  "location": {
+    "id": 1,
+    "location": "Gevgelija, Macedonia"
+  },
+  "website": "http://website.com",
+  "photos": [
+    "http://img.com",
+    "http://img.com",
+    "http://img.com"
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=bNhGesN1x_o",
+    "https://www.youtube.com/watch?v=dHC7P400C6w"
+  ],
+  "likes": 123,
+  "page_views": 123132,
+  "bookings": 200,
+  "genres": [
+    {
+      "id": 1,
+      "name": "pop"
+    },
+    {
+      "id": 2,
+      "name": "rock"
+    },
+    {
+      "id": 3,
+      "name": "funk"
+    },
+    {
+      "id": 4,
+      "name": "metal"
+    }
+  ],
+  "active": true
 }

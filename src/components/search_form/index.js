@@ -11,6 +11,9 @@ class SearchForm extends Component {
 
   handleOnClick(e) {
     const locationIds = this.props.search.location_ids.join(",");
+    if (!locationIds) {
+      return false;
+    }
     const url = `/stubs/${this.props.search.target}s.json?location_ids=${locationIds}`;
     this.props.dispatch({
       type: "FETCH_RESULTS",
