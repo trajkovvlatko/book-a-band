@@ -7,7 +7,6 @@ import Video from "../video/index";
 class BandInfo extends Component {
   render() {
     const band = this.props.band;
-    console.log(band.photos);
     const photos = band.photos.map( (src, i) =>
       <Photo src={src} key={i} />
     );

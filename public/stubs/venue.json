@@ -24,23 +24,23 @@
   "properties": [
     {
       "id": 1,
-      "property": "dinner"
+      "name": "dinner"
     },
     {
       "id": 2,
-      "property": "breakfast"
+      "name": "breakfast"
     },
     {
       "id": 2,
-      "property": "family"
+      "name": "family"
     },
     {
       "id": 2,
-      "property": "gigs"
+      "name": "gigs"
     },
     {
       "id": 2,
-      "property": "live performance"
+      "name": "live performance"
     }
   ],
   "active": true

@@ -2,25 +2,49 @@
   { 
     "id": 1,
     "name": "Band 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "band-email1@email.com",
-    "type": "band"
+    "photos": [
+      "http://img.com",
+      "http://img.com",
+      "http://img.com"
+    ],
+    "genres": ["pop", "rock", "funk"]
   },
   { 
     "id": 2,
     "name": "Band 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "band-email2@email.com",
-    "type": "band"
+    "photos": [
+      "http://img.com",
+      "http://img.com",
+      "http://img.com"
+    ],
+    "genres": ["pop", "rock", "funk"]
   },
   { 
     "id": 3,
     "name": "Band 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "band-email3@email.com",
-    "type": "band"
+    "photos": [
+      "http://img.com",
+      "http://img.com",
+      "http://img.com"
+    ],
+    "genres": ["pop", "rock", "funk"]
   },
   { 
     "id": 4,
     "name": "Band 4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "band-email4@email.com",
-    "type": "band"
+    "photos": [
+      "http://img.com",
+      "http://img.com",
+      "http://img.com"
+    ],
+    "genres": ["pop", "rock", "funk"]
   }
 ]

@@ -3,24 +3,48 @@
     "id": 1,
     "name": "Venue 1",
     "email": "venue-email1@email.com",
-    "type": "venue"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "photos": [
+      "http://img.com",
+      "http://img.com",
+      "http://img.com"
+    ],
+    "properties": ["dinner", "gigs", "bar"]
   },
   { 
     "id": 2,
     "name": "Venue 2",
     "email": "venue-email2@email.com",
-    "type": "venue"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "photos": [
+      "http://img.com",
+      "http://img.com",
+      "http://img.com"
+    ],
+    "properties": ["dinner", "gigs", "bar"]
   },
   { 
     "id": 3,
     "name": "Venue 3",
     "email": "venue-email3@email.com",
-    "type": "venue"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "photos": [
+      "http://img.com",
+      "http://img.com",
+      "http://img.com"
+    ],
+    "properties": ["dinner", "gigs", "bar"]
   },
   { 
     "id": 4,
     "name": "Venue 4",
     "email": "venue-email4@email.com",
-    "type": "venue"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "photos": [
+      "http://img.com",
+      "http://img.com",
+      "http://img.com"
+    ],
+    "properties": ["dinner", "gigs", "bar"]
   }
 ]
