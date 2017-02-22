@@ -26,8 +26,8 @@ class VenuePage extends Component {
           <div>Fetching...</div>
         : ""}
 
-        {this.props.venue.result ?
-          <VenueInfo venue={this.props.venue.result} />
+        {this.props.venue.results ?
+          <VenueInfo venue={this.props.venue.results} />
         : ""}
 
         <Link to="/">Back</Link>

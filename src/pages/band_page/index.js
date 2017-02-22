@@ -18,16 +18,18 @@ class BandPage extends Component {
   }
 
   render() {
+    const band = this.props.band;
+
     return (
       <div>
         <h1>Band Page</h1>
 
-        {this.props.band.fetching ?
+        {band.fetching ?
           <div>Fetching...</div>
         : ""}
 
-        {this.props.band.result ?
-          <BandInfo band={this.props.band.result} />
+        {band.results ?
+          <BandInfo band={band.results} />
         : ""}
 
         <Link to="/">Back</Link>

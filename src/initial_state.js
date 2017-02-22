@@ -13,5 +13,7 @@ export default {
     fetching: false,
     results: []
   },
-  band: {}
+  band: {},
+  genre: {},
+  bands: {}
 }

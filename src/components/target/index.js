@@ -6,6 +6,9 @@ class Target extends Component {
 
   handleOnChange(e) {
     this.props.dispatch({
+      type: "CLEAR_RESULTS"
+    });
+    this.props.dispatch({
       type: "SET_TARGET",
       payload: e.target.value
     });

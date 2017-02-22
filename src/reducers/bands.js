@@ -1,10 +1,10 @@
-export default function venue(state = {}, action) {
+export default function bands(state = {}, action) {
   switch (action.type) {
-    case 'FETCH_VENUE_PENDING':
-      return { ...state, fetching: true  }
-    case 'FETCH_VENUE_REJECTED':
+    case 'FETCH_BANDS_PENDING':
+      return { ...state, fetching: true }
+    case 'FETCH_BANDS_REJECTED':
       return { ...state, fetching: false, error: action.payload }
-    case 'FETCH_VENUE_FULFILLED':
+    case 'FETCH_BANDS_FULFILLED':
       return {
         ...state,
         fetching: false,
