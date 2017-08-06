@@ -16,6 +16,7 @@ import BandPage from './pages/band_page/index';
 import VenuesPage from './pages/venues_page/index';
 import VenuePage from './pages/venue_page/index';
 import GenrePage from './pages/genre_page/index';
+import PropertyPage from './pages/property_page/index';
 
 let store = createStore(
   reducer,
@@ -32,6 +33,7 @@ ReactDOM.render((
       <Route path="/venues" component={VenuesPage}></Route>
       <Route path="/venues/:id" component={VenuePage}></Route>
       <Route path="/genres/:id" component={GenrePage}></Route>
+      <Route path="/properties/:id" component={PropertyPage}></Route>
     </Router>
   </Provider>
 ), document.getElementById('root'))

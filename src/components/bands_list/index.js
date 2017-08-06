@@ -5,7 +5,6 @@ import BandResultItem from '../band_result_item';
 
 class BandsList extends Component {
   render() {
-    console.log(this.props.bands);
     const bands = this.props.bands;
 
     return (

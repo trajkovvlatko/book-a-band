@@ -6,6 +6,8 @@ import band from './band'
 import venue from './venue'
 import genre from './genre'
 import bands from './bands'
+import property from './property'
+import venues from './venues'
 
 export default combineReducers({
   search,
@@ -14,5 +16,7 @@ export default combineReducers({
   band,
   venue,
   genre,
-  bands
+  bands,
+  property,
+  venues,
 })
